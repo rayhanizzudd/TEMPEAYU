@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #0A6847;
+}
+
+body {
+    background-color: #FFFEE6;
+    width: 100%;
+    height: max-content;
+    overflow-x: hidden;
+    /* overflow: hidden; */
+
+}
+
+nav{
+    background-color: #F3CA52;
+    position: sticky;
+    top: 0;
+    padding: 20px;  
+    box-shadow: 0px 3px 3px 0px rgb(163, 163, 163);
+    z-index: 99999;
+    /* opacity: 0.5; */
+}
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-home {
+    background-color: #FFFEE6;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative; /* Pastikan posisi parent diatur ke relative */
+    overflow: visible;
+}
+
+
+
+.rectangle-main-home {
+    background-color:#ffe28a ;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    position: relative; /* Parent harus relative */
+}
+
+.content-title {
+    font-size: 140px;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.content-slogan{
+    font-size: 24px;
+    z-index: 2;
+
+}
+
+.decoration-left {
+    /* background-color: aqua; */
+    width: 30%;
+}
+
+.decoration-right {
+    /* background-color: aqua; */
+    width: 30%;
+}
+
+.decoration-right img {
+    float: right;    
+}
+
+.main-decoration img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    width: 50%; /* Gunakan persentase */
+    max-width: 400px; /* Batas ukuran maksimum */
+    height: auto; /* Jaga rasio gambar */
+}
+
+
+.main-advantage {
+    background-color: #F9E49C;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-advantage-top {
+    display: flex;
+    flex-direction: column;
+    /* width: 65%; */
+    /* background-color: red; */
+    height: 30vh;
+
+} 
+
+.content-advantage-bottom {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #0A6847; */
+}
+
+.left-content-advantage {
+    width: 55%;
+    height: auto;
+}
+
+.right-content-advantage {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 30px; */
+    padding-top: 60px;
+    /* background-color: blueviolet; */
+}
+
+.right-content-advantage h1 {
+    margin-top: 10px;
+    font-size: 44px;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.content-advantage-title {
+    font-size: 42px;
+    margin: 20px 20px;
+    /* background-color: aquamarine; */
+    padding: 0px 20px;
+}
+
+.sub-content1 {
+    background-color: #FFFEE6;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.sub-content2 {
+    background-color: #FFFEE6;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.sub-content3 {
+    background-color: #FFFEE6;
+    margin: 0px 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.main-product {
+    background-color: #FFFEE6;
+    width: 100%;
+    height: 100vh;
+}
+
+.main-about1 {
+    background-color: #F9E49C;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-about2 {
+    background-color: #ffe285;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-content-about1 {
+    width: 40%;
+    padding: 20px;
+    
+
+}
+
+.left-content-about2 {
+    width: 60%;
+    padding: 20px 60px;
+
+
+}
+
+.left-content-about2 h2 {
+    font-size: 48px;
+    font: 500;
+}
+
+.left-content-about2 p {
+    font-size: 24px;
+    font: 500;
+    text-align: justify;
+}
+
+.left-content-about1 img{
+    height: 600px;
+    margin: 20px 30px;
+    box-shadow: 3px 3px 30px rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+
+.right-content-about1{
+    width: 60%;
+    padding: 20px 60px;
+    
+}
+
+.right-content-about1 h2 {
+    font-size: 48px;
+    font: 500;
+}
+
+.right-content-about1 P {
+    font-size: 24px;
+    font: 500;
+    text-align: justify;
+}
+
+.right-content-about2{
+    width: 40%;
+    padding: 20px;
+    
+}
+
+.right-content-about2 img{
+    float: right;
+    height: 600px;
+    margin: 20px 30px;
+    box-shadow: 3px 3px 30px rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+
+.main-contact {
+    background-color: #F3CA52;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-contact {
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.left-contact h2 {
+    margin: 50px 10px 5px 60px;
+}
+
+.left-contact h3 {
+    margin: 0px 60px;
+}
+
+.right-contact {
+    width: 60%;
+    background-color: #F3CA52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container-contact {
+    /* background-color: #9e8537; */
+    width: auto;
+    height: auto;
+    padding: 40px 40px;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+
+.top-field input {
+    border-radius: 15px;
+    height: 40px;
+    width: 22rem;
+    padding: 0px 20px;
+}
+
+.bottom-field {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    /* margin-top: 10px; */
+}
+
+.bottom-field input {
+    border-radius: 15px;
+    height: 40px;
+    padding: 0px 20px;
+}
+
+textarea {
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.button-contact {
+    width: 60%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.card-contact {
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    background-color: #fffEE6;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(67, 67, 67);
+}
+
+.main-joinus {
+    background-color: #F9E49C;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-joinus {
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.left-joinus h2 {
+    margin: 50px 10px 5px 60px;
+}
+
+.left-joinus h3 {
+    margin: 0px 60px;
+}
+
+.right-joinus {
+    width: 60%;
+    background-color: #F9E49C;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-joinus {
+    margin-top: 10px;
+    width: 90%;
+    height: auto;
+    background-color: #fffEE6;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px rgb(67, 67, 67);
+}
+ 
+
+/* Efek animasi */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px); /* Mulai dari bawah */
+    transition: all 1s ease-in-out;
+}
+
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Tambahkan untuk variasi lainnya (contoh slide dari kiri) */
+.slide-left {
+    opacity: 0;
+    transform: translateX(-50px); /* Mulai dari kiri */
+    transition: all 1s ease-in-out;
+}
+
+.slide-left.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+
+

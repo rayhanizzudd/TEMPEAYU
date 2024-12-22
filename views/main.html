@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempe Ayu</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="text-logo">Tempe Ayu</div>
+            <div class="text-menu">Location</div>
+        </div>
+    </nav>
+
+    <!-- MAIN HOMEEE -->
+    <div class="fade-in">
+    <div class="main-home">
+        <div class="decoration-left fade-in">
+            <img src="../assets/left.png" alt="">
+        </div>
+        <div class="rectangle-main-home">
+            <div class="content-title">
+                TEMPEAYU
+            </div>
+            <div class="content-slogan ">
+                Tempe sehat, hiegenis, dan original
+            </div>
+            <div class="fade-in">
+                <img src="../assets/kedelai.png" alt="">
+            </div>
+        </div>
+        <div class="decoration-right fade-in">
+            <img src="../assets/right.png" alt="">
+        </div>
+    </div>    
+    <!-- ADVANTAGES -->
+     <div class="main-advantage">
+        <div class="content-advantage-top "></div>
+        <div class="content-advantage-bottom ">
+            <div class="left-content-advantage ">
+                <div class="content-advantage-title">| KEUNGGULAN</div>
+                <div class="content-main">
+                    <div class="sub-content1">Menjadi mengganti protein dari daging dan masih mengandung banyak manfaat lainnya, sehingga menjadikan salah satu makanan utama masyarakat Indonesia. </div>
+                    <div class="sub-content2">Terbuat dari kedelai murni dan terpilih, yang diproses secara higienis dan tanpa bahan tambahan dengan mempertimbangkan kualitas dan rasa.</div>
+                    <div class="sub-content3">Terbuat dari kedelai murni dan terpilih, yang diproses secara higienis dan tanpa bahan tambahan dengan mempertimbangkan kualitas dan rasa.</div>
+                </div>
+            </div>
+            <div class="right-content-advantage">
+                <img src="../assets/tempe.png" alt="">
+                <h1>TEMPE AYU ------</h1>
+            </div>
+        </div>
+     </div>
+     </div>
+
+     <!-- PRODUCT -->
+    <div class="main-product">
+
+    </div>
+
+    <!-- ABOUT US -->
+     <div class="main-about1 fade-in">
+        <div class="left-content-about1 n">
+            <img src="../assets/about1.png" alt="">
+        </div>
+        <div class="right-content-about1 n">
+            <h2>Pilihan Sehat dari Kedelai Pilihan, Tempe Ayu <br>___________________</h2><br>
+            <p>Tempe Ayu hadir sebagai produk tempe berkualitas yang terbuat dari kacang kedelai pilihan dan tanpa bahan pengawet atau bahan campuran lainnya, kami berkomitmen untuk menghadirkan tempe murni yang alami dan kaya akan nutrisi bagi masyarakat Indonesia dengan menghasilkan makanan yang tidak hanya lezat, tetapi juga sehat. </p>
+        </div>
+     </div>
+     <div class="main-about2 n">
+        <div class="left-content-about2">
+            <h2>Kualitas Terjaga, Cita Rasa Tempe yang Tak Tertandingi <br>_________________</h2><br>
+            <p>Setiap potong Tempe Ayu diproses dengan teliti melalui penyortiran untuk menghasilkan tekstur yang lembut dan cita rasa khas yang mendalam. Kami menjaga standar kebersihan dan kualitas pada setiap tahap produksi, sehingga pelanggan dapat menikmati tempe yang segar, sehat, tahan lama, dan autentik.</p>
+        </div>
+        <div class="right-content-about2">
+            <img src="../assets/about2.png" alt="">
+        </div>
+     </div>
+
+     <!-- CONTACT US -->
+      <div class="main-contact fade-in">
+        <div class="left-contact">
+            <h2>Saran dan Pertanyaan</h2>
+            <h3>+62 813-4893-5523</h3>
+            <h3>tempeayu28@gmail.com</h3>
+        </div>
+        <div class="right-contact ">
+            <div class="card-contact">
+                <form action="">
+                    <div class="container-contact">
+                        <div class="top-field">
+                            <input type="text" placeholder="Nama Depan">
+                            <input type="text" placeholder="Nama Belakang">
+                        </div>
+                        <div class="bottom-field">
+                            <input type="text" placeholder="Email">
+                            <!-- <input type="text" placeholder="Nomor">
+                            <input type="text" placeholder="Kota"> -->
+                            <textarea id="pesan" name="pesan" rows="4" cols="50" placeholder="Pesan"></textarea>
+                        </div>
+                        <button class="button-contact">Kirim</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </div>
+
+      <!-- JOIN WITH US -->
+       <div class="main-joinus fade-in">
+        <div class="left-joinus">
+            <h2>Bergabung menjadi bagian kami</h2>
+            <h3>+62 813-4893-5523</h3>
+            <h3>tempeayu28@gmail.com</h3>
+        </div>
+        <div class="right-joinus">
+            <div class="card-joinus">
+                <form action="">
+                    <div class="container-contact">
+                        <div class="top-field">
+                            <input type="text" placeholder="Nama Depan">
+                            <input type="text" placeholder="Nama Belakang">
+                        </div>
+                        <div class="bottom-field">
+                            <input type="text" placeholder="Email">
+                            <input type="text" placeholder="Nomor">
+                            <input type="text" placeholder="Kota">
+                            <textarea id="pesan" name="pesan" rows="4" cols="50" placeholder="Pesan"></textarea>
+                        </div>
+                        <button class="button-contact">Kirim</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+       </div>
+
+       <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('show');
+                        } else {
+                            entry.target.classList.remove('show'); // Opsional: hilangkan jika scroll ke atas
+                        }
+                    });
+                }, { threshold: 0.3 }); // 30% elemen terlihat akan memicu
+
+                const animatedElements = document.querySelectorAll('.fade-in, .slide-left');
+                animatedElements.forEach(element => observer.observe(element));
+            });
+        </script>
+
+
+</body>
+</html>
